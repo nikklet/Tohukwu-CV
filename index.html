@@ -2,112 +2,172 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Onwukwe Tochukwu Chimere — AI Trainer Profile</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tochukwu Onwukwe | AI Automation Engineer and AI Trainer</title>
+<meta name="description" content="AI automation engineer and AI trainer building n8n workflows, AI agents, RAG assistants, and API integrations. Based in Lagos, Nigeria.">
 <style>
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-    max-width: 720px;
-    margin: 60px auto;
-    padding: 0 24px;
-    color: #1f1f1f;
-    line-height: 1.6;
+  :root { --bg:#ffffff; --text:#1a1a1a; --muted:#5f6368; --card:#f5f6f8; --accent:#2563eb; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#0f1115; --text:#eceff4; --muted:#9aa3b2; --card:#181b22; --accent:#6ea8ff; }
   }
-  h1 { font-size: 32px; margin-bottom: 4px; }
-  .subtitle { color: #666; font-size: 18px; margin-bottom: 24px; }
-  .contact { color: #888; font-size: 14px; margin-bottom: 40px; }
-  h2 {
-    font-size: 18px;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 6px;
-    margin-top: 40px;
-  }
-  .badge {
-    display: inline-block;
-    background: #0f9d58;
-    color: white;
-    padding: 4px 12px;
-    border-radius: 20px;
-    font-size: 13px;
-    font-weight: 600;
-    margin-bottom: 16px;
-  }
-  .stats {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
-    margin: 16px 0;
-  }
-  .stat-box {
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
-    padding: 14px 16px;
-  }
-  .stat-number { font-size: 24px; font-weight: 700; color: #1a1a1a; }
-  .stat-label { font-size: 13px; color: #777; margin-top: 2px; }
-  ul { padding-left: 20px; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: -apple-system, "Segoe UI", Roboto, sans-serif; background:var(--bg); color:var(--text); line-height:1.6; }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 20px; }
+  h1 { font-size: 2.2rem; margin: 0 0 8px; }
+  h2 { font-size: 1.4rem; margin: 48px 0 16px; }
+  p { margin: 0 0 12px; }
+  .sub { color: var(--muted); font-size: 1.1rem; }
+  .btns { margin-top: 20px; display: flex; gap: 12px; flex-wrap: wrap; }
+  .btn { display:inline-block; padding: 10px 18px; border-radius: 8px; background: var(--accent); color:#fff; text-decoration:none; font-weight:600; }
+  .btn.alt { background: transparent; color: var(--accent); border: 2px solid var(--accent); }
+  .card { background: var(--card); border-radius: 12px; padding: 20px; margin-bottom: 16px; }
+  .card h3 { margin: 0 0 4px; }
+  .meta { color: var(--muted); font-size: 0.9rem; margin-bottom: 8px; }
+  .stack { color: var(--muted); font-size: 0.9rem; }
+  .stats { display: flex; gap: 12px; flex-wrap: wrap; margin: 16px 0; }
+  .stat { background: var(--card); border-radius: 12px; padding: 14px 18px; flex: 1 1 140px; }
+  .stat strong { display: block; font-size: 1.5rem; color: var(--accent); }
+  a { color: var(--accent); }
+  ul { padding-left: 20px; margin: 0 0 12px; }
   li { margin-bottom: 6px; }
-  .cert-block {
-    background: #f7f7f7;
-    border-radius: 8px;
-    padding: 16px 20px;
-    margin: 16px 0;
-  }
-  .footer { margin-top: 50px; font-size: 13px; color: #999; }
+  .tags { display: flex; flex-wrap: wrap; gap: 8px; }
+  .tag { background: var(--card); border-radius: 999px; padding: 4px 12px; font-size: 0.85rem; }
+  footer { margin-top: 56px; color: var(--muted); font-size: 0.9rem; }
 </style>
 </head>
 <body>
+<main>
 
-  <h1>Onwukwe Tochukwu Chimere</h1>
-  <div class="subtitle">Data Annotator | AI Trainer</div>
-  <div class="contact">Lagos, Nigeria &nbsp;|&nbsp; onwukwetc@gmail.com &nbsp;|&nbsp; +2348156579427 &nbsp;|&nbsp; linkedin.com/in/tochukwu-onwukwe9931651b5</div>
+  <h1>Tochukwu Onwukwe</h1>
+  <p class="sub">AI automation engineer and AI trainer. I build API-driven automations and AI agents that connect the tools a team already uses, and I evaluate AI systems for a living, so I know how they fail.</p>
+  <p class="stack">Lagos, Nigeria (WAT) · Remote · Available full-time</p>
+  <div class="btns">
+    <a class="btn" href="https://github.com/nikklet">GitHub</a>
+    <a class="btn alt" href="mailto:onwukwetc@gmail.com">Email me</a>
+    <a class="btn alt" href="https://www.linkedin.com/in/tochukwu-onwukwe-9931651b5">LinkedIn</a>
+  </div>
 
-  <span class="badge">✓ Certified Image Annotator / AI Trainer — micro1</span>
+  <h2>Featured Projects</h2>
+  <p class="stack">Built for client work. Code and screenshots are confidential, so each case study covers the approach.</p>
 
-  <h2>Overview</h2>
-  <p>Data Annotator and AI Trainer specializing in computer vision, video evaluation, and LLM output review. Currently active on micro1, handling both annotation submissions and peer review work across household activity video datasets and LLM evaluation tasks.</p>
+  <div class="card">
+    <h3>Sales Pipeline Automation</h3>
+    <p>Captures leads from Tally forms, Google Forms, and email, enriches them through APIs, logs them in HubSpot and Google Sheets, and alerts the sales team in Slack. Cut manual lead handling and got new leads to the team right away.</p>
+    <p class="stack">n8n · Claude · HubSpot API · Google Sheets · Slack API</p>
+    <a href="https://github.com/nikklet/sales-pipeline-automation">Read the case study →</a>
+  </div>
 
-  <h2>micro1 Activity</h2>
+  <div class="card">
+    <h3>Incoming Data Classifier and Router</h3>
+    <p>Receives data through a webhook or API, classifies it with an LLM, and routes it to the right department. Batching keeps it reliable on large inputs. Reduced handling time by removing manual sorting.</p>
+    <p class="stack">n8n · Gemini / Claude · OpenAI · Slack API · REST</p>
+    <a href="https://github.com/nikklet/data-classifier-router">Read the case study →</a>
+  </div>
+
+  <div class="card">
+    <h3>Company RAG Assistant</h3>
+    <p>A chat assistant that answers team questions from company documents, customer information, and APIs, with a knowledge base refreshed regularly.
+      Saved time searching for information and cut repeat questions.</p>
+    <p class="stack">n8n · Claude / Gemini · n8n Vector Store · REST</p>
+    <a href="https://github.com/nikklet/company-rag-assistant">Read the case study →</a>
+  </div>
+
+  <h2>More Automation Work</h2>
+  <div class="card">
+    <ul>
+      <li><strong>Order processing pipeline.</strong> Webhook-triggered, with API-key authentication, required-field validation, and a modular sub-workflow that checks for duplicate orders and updates status automatically.</li>
+      <li><strong>Customer service agent.</strong> Gemini and OpenAI agent with tool calling for order status, customer, and product lookups, plus persistent memory.</li>
+      <li><strong>Sales data pipeline.</strong> Branching workflow that aggregates and validates sales data by region, then exports CSV and emails reports to stakeholders.</li>
+      <li><strong>RAG agents.</strong> One for open research with SerpAPI search grounding, one for document-grounded Q&amp;A.</li>
+      <li><strong>Reliability.</strong> Retry and error-handling configurations tested through dedicated failure workflows, and a feedback pipeline debugged end to end after recurring HTTP 422 errors.</li>
+      <li><strong>DataBridge Partners.</strong> Two-workflow recruitment referral automation: an intake and tagging workflow paired with a scheduled email workflow.</li>
+    </ul>
+  </div>
+
+  <h2>What I Build</h2>
+  <ul>
+    <li>Lead and sales pipeline automation</li>
+    <li>LLM-based classification and routing of incoming data</li>
+    <li>RAG assistants over company documents and APIs</li>
+    <li>Slack, HubSpot, and API integrations</li>
+    <li>Error handling, retries, and failure testing for automations</li>
+  </ul>
+
+  <h2>AI Training and Evaluation</h2>
+  <p>I evaluate and improve AI outputs across several platforms, using rubric-based methods and RLHF practices. This shapes how I build: I design for edge cases and add review steps where accuracy matters.</p>
+
   <div class="stats">
-    <div class="stat-box">
-      <div class="stat-number">436</div>
-      <div class="stat-label">Task instances submitted</div>
-    </div>
-    <div class="stat-box">
-      <div class="stat-number">4.86</div>
-      <div class="stat-label">Accuracy rating</div>
-    </div>
-    <div class="stat-box">
-      <div class="stat-number">17 / 17</div>
-      <div class="stat-label">Peer reviews approved (0 sent back)</div>
-    </div>
-    <div class="stat-box">
-      <div class="stat-number">~51h</div>
-      <div class="stat-label">Estimated work logged (submissions + reviews)</div>
-    </div>
+    <div class="stat"><strong>436+</strong>evaluation tasks completed</div>
+    <div class="stat"><strong>4.86/5</strong>average accuracy score</div>
+    <div class="stat"><strong>25+</strong>peer reviews passed</div>
   </div>
 
-  <h2>Certification</h2>
-  <img src="micro1-cert.jpg" alt="micro1 Certification" style="width:100%; max-width:600px; border-radius:8px; display:block; margin-bottom:12px;">
-  <div class="cert-block">
-    <strong>Certified by micro1</strong> — Image Annotator/AI Trainer<br>
-    Passed micro1's AI Interview and officially certified, April 1, 2026<br>
-    Signed by Ali Ansari, Founder/CEO
+  <div class="card">
+    <h3>micro1 · AI Trainer / Data Annotator</h3>
+    <p class="meta">April 2026 – Present · Remote</p>
+    <ul>
+      <li>Earned micro1's Image Annotator / AI Trainer certification.</li>
+      <li>Scored multimodal model responses (image, video, text) for factual accuracy, reasoning quality, and completeness against rubrics.</li>
+      <li>Documented hallucinations and inconsistencies with evidence-backed explanations instead of pass/fail labels, which reviewers cited when approving submissions.</li>
+    </ul>
   </div>
 
-  <h2>Core Skills</h2>
-  <ul>
-    <li><strong>Annotation & QA:</strong> Video/Image annotation, CVAT, bounding box & keypoint labeling, inter-annotator agreement, QA review</li>
-    <li><strong>AI Training:</strong> RLHF, SFT, LLM evaluation, bias detection, instruction-following assessment, prompt engineering</li>
-    <li><strong>Background:</strong> B.Eng. Agricultural Engineering (FUTO, 2019–2023) — engineering rigor and structured analysis applied to evaluation precision</li>
-  </ul>
+  <div class="card">
+    <h3>AfterQuery · Web Research Analyst / Data Annotator</h3>
+    <p class="meta">March 2026 – Present · Remote</p>
+    <ul>
+      <li>Built multi-hop research questions by working backward from a verified answer.</li>
+      <li>Validated each question by confirming leading LLMs failed it and five separate Google searches surfaced nothing on page one.</li>
+      <li>Reviewed AI responses for bias and toxicity against platform guidelines.</li>
+    </ul>
+  </div>
 
-  <h2>Certifications</h2>
-  <ul>
-    <li>Certified Image Annotator/AI Trainer — micro1 (April 2026)</li>
-    <li>Prompt Engineering: Zero to Mastery — Prompten.xyz (PE-00THW4QS)</li>
-  </ul>
+  <div class="card">
+    <h3>AtlasCapture · AI Trainer / Data Annotator</h3>
+    <p class="meta">January 2026 – Present · Remote</p>
+    <ul>
+      <li>Spotted that generic "hold" labels were double-counting objects already captured by another action, and proposed a conditional rule that became the standing guideline.</li>
+      <li>Applied the rule across large volumes of video segments, eliminating double and over-labeling.</li>
+    </ul>
+  </div>
 
-  <div class="footer">Updated July 2026.</div>
+  <div class="card">
+    <h3>Test.io · QA / Tester</h3>
+    <p class="meta">March 2025 – Present · Remote</p>
+    <ul>
+      <li>Assessed bug severity across a 28-scenario dataset using impact and reproducibility criteria.</li>
+      <li>Wrote structured bug reports with a strict What/Where/When title format, clear reproduction steps, and separated expected versus actual results. The format was adopted as the project standard.</li>
+    </ul>
+  </div>
 
+  <div class="card">
+    <h3>Data Quality Dispute Resolution</h3>
+    <p class="meta">2026 · Platform project</p>
+    <p>Fact-checked flagged dataset responses independently and caught two errors other reviewers missed: asbestos described as synthetic, and a song credited to the wrong artist.</p>
+  </div>
+
+  <h2>Skills</h2>
+  <div class="tags">
+    <span class="tag">n8n</span><span class="tag">Make.com</span><span class="tag">API Integration</span><span class="tag">Webhooks</span>
+    <span class="tag">RAG</span><span class="tag">OpenAI</span><span class="tag">Google Gemini</span><span class="tag">Prompt Engineering</span>
+    <span class="tag">HubSpot</span><span class="tag">Notion</span><span class="tag">Python (fundamentals)</span>
+    <span class="tag">AI Evaluation</span><span class="tag">RLHF</span><span class="tag">Hallucination Detection</span>
+    <span class="tag">Bias and Toxicity Detection</span><span class="tag">Bug Severity Assessment</span>
+    <span class="tag">Inter-Annotator Agreement</span><span class="tag">CVAT</span><span class="tag">Search Relevance Rating</span>
+  </div>
+
+  <h2>Education and Languages</h2>
+  <p><strong>B.Eng. in Agricultural Engineering</strong>, Federal University of Technology Owerri (FUTO), 2019 – 2023</p>
+  <p>English (fluent) · Japanese (intermediate)</p>
+
+  <h2>Contact</h2>
+  <p>Open to client projects and full-time remote roles.</p>
+  <p>
+    <a href="mailto:onwukwetc@gmail.com">onwukwetc@gmail.com</a><br>
+    <a href="https://www.linkedin.com/in/tochukwu-onwukwe-9931651b5">LinkedIn</a> · <a href="https://github.com/nikklet">GitHub</a>
+  </p>
+
+  <footer>© Tochukwu Onwukwe</footer>
+</main>
 </body>
 </html>
